@@ -23,7 +23,7 @@
       layersControl: true
     }).setView([16.8862,81.2949], 14);
   var Satellite =  L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-        maxZoom: 18,
+        maxZoom: 22,
         id: 'mapbox.satellite',
         accessToken: 'pk.eyJ1IjoidmVua2FubmEiLCJhIjoiY2oxa2w0Y3J2MDF2dTJ3cGJzbWhrYTh3ayJ9.BA-1iL9BvWyVhuAZR75mgQ'
     }).addTo(map);
@@ -32,7 +32,7 @@
       attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
     });
     var rvm = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-        maxZoom: 18,
+        maxZoom: 22,
         id: 'venkanna.4aedbxgz',
         accessToken: 'pk.eyJ1IjoidmVua2FubmEiLCJhIjoiY2oxa2w0Y3J2MDF2dTJ3cGJzbWhrYTh3ayJ9.BA-1iL9BvWyVhuAZR75mgQ',
         opacity:0.4
